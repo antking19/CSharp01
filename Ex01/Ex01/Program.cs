@@ -38,9 +38,8 @@ namespace Ex01
 
             Console.WriteLine("==========================EX02=================================");
 
-            int[] phantu2 = { 22, 252, 5, 36, 6, 3, 63, 6, 36 };
             int value = 6;
-            findPosition(value, phantu2);
+            findPosition(value, phantu);
 
         }
         public static void findPosition(int x, int[] arr)
