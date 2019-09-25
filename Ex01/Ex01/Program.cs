@@ -33,6 +33,32 @@ namespace Ex01
             Console.WriteLine("");
             Console.Write("Co tat ca {0} so le - {1}", countLe, string.Join(",", myALLe.ToArray()));
 
+            /*==========================================Bai 01 cách 02=========================================================*/
+            /*int[] phantu = { 22, 252, 5, 36, 6, 3, 63, 6, 36 };
+            int countChan = 0;
+            int countLe = 0;
+            //ArrayList myALChan = new ArrayList();
+            //ArrayList myALLe = new ArrayList();
+            string le = "";
+            string so_chan = "";
+            for (int i = 0; i < phantu.Length; i++)
+            {
+                if (phantu[i] % 2 == 0)
+                {
+                    //myALChan.Add(phantu[i]);
+                    so_chan += phantu[i].ToString() + ",";
+                    countChan++;
+                }
+                else
+                {
+                    //myALLe.Add(phantu[i]);     
+                    le += phantu[i].ToString() + ",";
+                    countLe++;
+                }
+            }
+            Console.WriteLine(so_chan);
+            Console.WriteLine(le);*/
+
             Console.WriteLine("");
             Console.WriteLine("");
 
@@ -54,11 +80,6 @@ namespace Ex01
             }
         }
 
-        public static void PrintValues(IEnumerable myList)
-        {
-            foreach (Object obj in myList)
-                Console.Write("   {0}", obj);
-            Console.WriteLine();
-        }
+
     }
 }
